@@ -12,8 +12,7 @@ body {
 
 .container{
     width: 80%;
-    margin: 10px auto;
-    background-color: white;
+    margin: 0px auto;
 
 }
 
@@ -22,6 +21,8 @@ body {
 #section-navbar{
     background-color: orange;
     height: 30px;
+    margin: 10px auto;
+    width: 80%;
 }
 
 
@@ -43,5 +44,40 @@ body {
 
 
 /* Stile main */
+.main-banner{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    padding: 10px;
+}
 
+.bg-blue{
+    background-color: rgb(101, 101, 255);
+    width: 70%;
+    
+}
+.bg-pink{
+    background-color: rgb(243, 207, 213);
+    width: 30%;
+    
+}
+
+.bg-green{
+    background-color: green;
+    width: 100%;
+}
+
+.second-banner{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    padding: 10px;
+}
+main > div:nth-child(even) {
+  background-color: rgb(182, 178, 178);
+}
+
+main > div:nth-child(odd) {
+  background-color: white;
+}
 /* Stile footer */

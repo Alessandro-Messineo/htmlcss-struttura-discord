@@ -12,12 +12,34 @@ body {
 
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: white;
 
 }
 
 /* Stile header*/
+
+#section-navbar{
+    background-color: orange;
+    height: 30px;
+}
+
+
+
+
+.bg-banner{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#section-banner{
+    background: pink;
+    width: 520px;
+    height: 220px;
+    margin: 20px;
+}
 
 
 /* Stile main */
